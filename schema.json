@@ -36,6 +36,7 @@
       "logo": {
         "description": "xxx",
         "type": "string",
+        "format": "uri"
       },
       "additionalInfo": {
         "description": "xxx",
