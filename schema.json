@@ -7,83 +7,84 @@
     "type": "object",
     "properties": {
       "id": {
-        "description": "xxx",
+        "description": "The string should contain an unique ID composed by only alfanumeric cahracters and - the combination should be the ngi project acronym and the solution acronym like NGI-ASSURE:PROJECT-1",
         "type": "string",
-        "maxLength": 50
+        "maxLength": 50,
+        "regex":"^[a-zA-Z0-9:-]*$"
       },
       "acronym": {
-        "description": "xxx",
+        "description": "A simple acronym for the project",
         "type": "string",
         "maxLength": 50
       },
       "name": {
-        "description": "xxx",
+        "description": "The product name",
         "type": "string",
         "maxLength": 50
       },
       "website": {
-        "description": "xxx",
+        "description": "A link to the website project",
         "type": "string",
         "format": "uri"
       },
       "countries": {
-        "description": "xxx",
+        "description": "A list of coutries where the project is available",
         "type": "array",
         "items": [
-          { "enum": ["it", "..."] },
+          { "enum": ["BE","EL","LT","PT","BG","ES","LU","RO","CZ","FR","HU","SI","DK","HR","MT","SK","DE","IT","NL","FI","EE","CV","AT","SE","IE","LV","PL","IS","NO","LI","CH"] }
         ]
       },
       "logo": {
-        "description": "xxx",
+        "description": "A link to the project logo",
         "type": "string",
         "format": "uri"
       },
       "additionalInfo": {
-        "description": "xxx",
+        "description": "Any additional info about the project",
         "type": "string",
         "maxLength": 1000
       },
       "description": {
-        "description": "xxx",
+        "description": "A description that can define the project",
         "type": "string",
         "maxLength": 250
       },
       "enduserRelevance": {
-        "description": "xxx",
+        "description": "Some imptuts from the end users",
         "type": "string",
         "maxLength": 250
       },
       "category": {
-        "description": "xxx",
-        "enum": ["a", "b"]
+        "description": "A fixed taxonomy about the project",
+        "enum": ["trustworthy-hw","network","engineering","firmware","analysis","middleware","decentralized","data-ml","services-apps","community"]
       },
       "keywords": {
-        "description": "xxx",
+        "description": "A free taxonomy about the project",
         "type": "array",
         "items": [
-          { "type": "string" },
+          { "type": "string" }
         ]
       },
       "projectStatus": {
-        "description": "xxx",
-        "enum": ["a", "b"]
+        "description": "A fixed taxonomy about status of the project",
+        "enum": ["early","operational","tested"]
       },
       "contact": {
-        "description": "xxx",
+        "description": "Some conctact info",
         "type": "string",
         "maxLength": 200
       },
       "ngiProject": {
-        "description": "xxx",
+        "description": "single value (link possible provided via the taxonomy)",
         "enum": ["a", "b"]
       },
       "endorsements": {
-        "description": "xxx",
+        "description": "Link using ActivityHub",
         "type": "string",
         "format": "uri"
       },
       "disclaimer": {
-        "description": "xxx",
+        "description": "Some info",
         "type": "string",
         "maxLength": 500
       }
