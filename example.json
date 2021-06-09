@@ -1,0 +1,19 @@
+{
+        "id": "NGI-ASSURE:PROJECT-1",
+        "acronym": "assurePrj1",
+        "name":"my project",
+        "website":"https://www.martel-innovate.com/",
+        "countries": ["BE","EL","RO","CZ","FR","HU","SI","DK","HR","NL","FI","EE","CV","AT","SE","IE","LV","PL","IS","NO","LI","CH"],
+        "logo": "https://www.martel-innovate.com/wp-content/uploads/sites/5/2020/05/Marel-innovate-logo-StaySafe.png",
+        "additionalInfo":"More info about the project",
+        "description":"A simple description of the project",
+        "enduserRelevance":"This project is for a certain type of users",
+        "category": "firmware",
+        "keywords": "New fixed taxonomy",
+        "projectStatus":"operational",
+        "contact":"person@email.com",
+        "ngiProject": "project",
+        "endorsements":"https://activityhub/project",
+        "disclaimer": "A new info"
+      }
+  
