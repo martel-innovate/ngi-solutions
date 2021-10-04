@@ -1,5 +1,5 @@
 {
-  "title": "NGI solutions schema",
+  "title": "NGI solutions JSON schema",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://ngi.eu/ngi-solutions-schema",
   "type": "array",
@@ -7,84 +7,84 @@
     "type": "object",
     "properties": {
       "id": {
-        "description": "The string should contain an unique ID composed by only alfanumeric characters and - the combination should be the ngi project acronym and the solution acronym like NGI-ASSURE:PROJECT-1",
+        "description": "The string should contain an unique ID composed by only alphanumeric characters and - the combination should be the NGI project acronym and the solution acronym like NGI-ASSURE:PROJECT-1",
         "type": "string",
         "maxLength": 50,
         "regex":"^[a-zA-Z0-9:-]*$"
       },
       "acronym": {
-        "description": "A simple acronym for the project",
+        "description": "A simple acronym for the solution",
         "type": "string",
         "maxLength": 50
       },
       "name": {
-        "description": "The product name",
+        "description": "The solution name",
         "type": "string",
         "maxLength": 50
       },
       "website": {
-        "description": "A link to the project website",
+        "description": "A link to the solution website",
         "type": "string",
         "format": "uri"
       },
       "countries": {
-        "description": "the list of countries of project contributors",
+        "description": "The list of countries of solution contributors",
         "type": "array",
         "items": [
           { "enum": ["BE","EL","LT","PT","BG","ES","LU","RO","CZ","FR","HU","SI","DK","HR","MT","SK","DE","IT","NL","FI","EE","CV","AT","SE","IE","LV","PL","IS","NO","LI","CH"] }
         ]
       },
       "logo": {
-        "description": "A link to the project logo",
+        "description": "A http(s) link to the solution logo",
         "type": "string",
         "format": "uri"
       },
       "additionalInfo": {
-        "description": "Any additional info about the project",
+        "description": "Any additional info about the solution",
         "type": "string",
         "maxLength": 1000
       },
       "description": {
-        "description": "A description that can define the project",
+        "description": "A description of the solution",
         "type": "string",
         "maxLength": 250
       },
       "enduserRelevance": {
-        "description": "Some imptuts from the end users",
+        "description": "How is the solution relevant for the end users",
         "type": "string",
         "maxLength": 250
       },
       "category": {
-        "description": "A fixed taxonomy about the project",
+        "description": "Main category to which the solution belongs",
         "enum": ["trustworthy-hw","network","engineering","firmware","analysis","middleware","decentralized","data-ml","services-apps","community"]
       },
       "keywords": {
-        "description": "A free taxonomy about the project",
+        "description": "Free keyboards to describe the solution",
         "type": "array",
         "items": [
           { "type": "string" }
         ]
       },
       "projectStatus": {
-        "description": "A fixed taxonomy about status of the project",
+        "description": "Status of the solution",
         "enum": ["early","operational","tested"]
       },
       "contact": {
-        "description": "Some contact info",
+        "description": "Solution contact details",
         "type": "string",
         "maxLength": 200
       },
       "ngiProject": {
-        "description": "single value (link possible provided via the taxonomy)",
+        "description": "NGI project that funded the solution",
         "enum": ["a", "b"]
       },
       "endorsements": {
-        "description": "Link using ActivityPub",
+        "description": "Link to endorsements to the solution",
         "type": "string",
         "format": "uri"
       },
       "disclaimer": {
-        "description": "Some info",
+        "description": "Disclaimers about the solution",
         "type": "string",
         "maxLength": 500
       }
