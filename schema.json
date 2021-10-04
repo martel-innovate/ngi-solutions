@@ -55,7 +55,7 @@
         "maxLength": 250
       },
       "category": {
-        "description": "Main category to which the solution belong",
+        "description": "Main category to which the solution belongs",
         "enum": ["trustworthy-hw","network","engineering","firmware","analysis","middleware","decentralized","data-ml","services-apps","community"]
       },
       "keywords": {
