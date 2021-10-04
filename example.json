@@ -13,7 +13,7 @@
         "keywords": ["key-1","key-2"],
         "projectStatus":"operational",
         "contact":"person@email.com",
-        "ngiProject": "a",
+        "ngiProject": "ngi4all",
         "endorsements":"https://activityhub/project",
         "disclaimer": "A disclaimer"
       },
@@ -31,7 +31,7 @@
         "keywords": ["key-3","key-4"],
         "projectStatus":"operational",
         "contact":"person@email.com",
-        "ngiProject": "b",
+        "ngiProject": "tetra",
         "endorsements":"https://activityhub/project",
         "disclaimer": "A disclaimer"
       }
