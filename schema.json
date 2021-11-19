@@ -31,7 +31,7 @@
         "description": "The list of countries of solution contributors",
         "type": "array",
         "items": [
-          { "enum": ["BE","EL","LT","PT","BG","ES","LU","RO","CZ","FR","HU","SI","DK","HR","MT","SK","DE","IT","NL","FI","EE","CV","AT","SE","IE","LV","PL","IS","NO","LI","CH"] }
+          { "enum": ["BE","EL","LT","PT","BG","ES","LU","RO","CZ","FR","HU","SI","DK","HR","MT","SK","DE","IT","NL","FI","EE","CV","AT","SE","IE","LV","PL","IS","NO","LI","CH","US","UK"] }
         ]
       },
       "logo": {
