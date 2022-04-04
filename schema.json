@@ -31,7 +31,7 @@
         "description": "The list of countries of solution contributors",
         "type": "array",
         "items": [
-          { "enum": ["BE","EL","LT","PT","BG","ES","LU","RO","CZ","FR","HU","SI","DK","HR","MT","SK","DE","IT","NL","FI","EE","CV","AT","SE","IE","LV","PL","IS","NO","LI","CH","US","UK"] }
+          { "enum": ["BE","EL","LT","PT","BG","ES","LU","RO","CZ","FR","HU","SI","DK","HR","MT","SK","DE","IT","NL","FI","EE","CV","AT","SE","IE","LV","PL","IS","NO","LI","CH","US","UK","GR","CS","MK"] }
         ]
       },
       "logo": {
@@ -56,7 +56,11 @@
       },
       "category": {
         "description": "Main category to which the solution belongs",
+          "type": "array",
+             "items": [
+          {
         "enum": ["trustworthy-hw","network","engineering","firmware","analysis","middleware","decentralized","data-ml","services-apps","community"]
+          }]
       },
       "keywords": {
         "description": "Free keyboards to describe the solution",
