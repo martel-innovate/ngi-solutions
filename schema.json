@@ -80,7 +80,7 @@
       },
       "ngiProject": {
         "description": "NGI project that funded the solution",
-        "enum": ["fed4fire", "ngi4all","think-nexus","ngi-explorers","ngi-forward","tetra","ngi-zero","dapsi","ngi-pointer","ngiatlantic","ledger","ngi-trust","essif-lab","ontochain","ngi-assure","trublo","european-language-grid","bergamot","comprise","elitr","embeddia","gourmet","pret-a-llod"]
+        "enum": ["fed4fire", "ngi4all","think-nexus","ngi-explorers","ngi-forward","tetra","ngi-zero","dapsi","ngi-pointer","ngi-atlantic","ledger","ngi-trust","essif-lab","ontochain","ngi-assure","trublo","european-language-grid","bergamot","comprise","elitr","embeddia","gourmet","pret-a-llod"]
       },
       "endorsements": {
         "description": "Link to endorsements to the solution",
