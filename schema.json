@@ -62,13 +62,6 @@
         "enum": ["trustworthy-hw","network","engineering","firmware","analysis","middleware","decentralized","data-ml","services-apps","community"]
           }]
       },
-      "keywords": {
-        "description": "Free keyboards to describe the solution",
-        "type": "array",
-        "items": [
-          { "type": "string" }
-        ]
-      },
       "projectStatus": {
         "description": "Status of the solution",
         "enum": ["early","operational","tested"]
@@ -104,7 +97,6 @@
       "enduserRelevance",
       "description",
       "category",
-      "keywords",
       "projectStatus",
       "contact",
       "ngiProject",
