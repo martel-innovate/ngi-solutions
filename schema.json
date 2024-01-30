@@ -9,7 +9,7 @@
       "id": {
         "description": "The string should contain an unique ID composed by only alphanumeric characters and - the combination should be the NGI project acronym and the solution acronym like NGI-ASSURE:PROJECT-1",
         "type": "string",
-        "regex":"^[a-zA-Z0-9:-]*$"
+        "regex": "^[a-zA-Z0-9:-]*$"
       },
       "acronym": {
         "description": "A simple acronym for the solution",
@@ -28,7 +28,46 @@
         "description": "The list of countries of solution contributors",
         "type": "array",
         "items": [
-          { "enum": ["BE","EL","LT","PT","BG","ES","LU","RO","CZ","FR","HU","SI","DK","HR","MT","SK","DE","IT","NL","FI","EE","CV","AT","SE","IE","LV","PL","IS","NO","LI","CH","US","UK","GR","CS","MK"] }
+          {
+            "enum": [
+              "BE",
+              "EL",
+              "LT",
+              "PT",
+              "BG",
+              "ES",
+              "LU",
+              "RO",
+              "CZ",
+              "FR",
+              "HU",
+              "SI",
+              "DK",
+              "HR",
+              "MT",
+              "SK",
+              "DE",
+              "IT",
+              "NL",
+              "FI",
+              "EE",
+              "CV",
+              "AT",
+              "SE",
+              "IE",
+              "LV",
+              "PL",
+              "IS",
+              "NO",
+              "LI",
+              "CH",
+              "US",
+              "UK",
+              "GR",
+              "CS",
+              "MK"
+            ]
+          }
         ]
       },
       "logo": {
@@ -50,15 +89,31 @@
       },
       "category": {
         "description": "Main category to which the solution belongs",
-          "type": "array",
-             "items": [
+        "type": "array",
+        "items": [
           {
-        "enum": ["trustworthy-hw","network","engineering","firmware","analysis","middleware","decentralized","data-ml","services-apps","community"]
-          }]
+            "enum": [
+              "trustworthy-hw",
+              "network",
+              "engineering",
+              "firmware",
+              "analysis",
+              "middleware",
+              "decentralized",
+              "data-ml",
+              "services-apps",
+              "community"
+            ]
+          }
+        ]
       },
       "projectStatus": {
         "description": "Status of the solution",
-        "enum": ["early","operational","tested"]
+        "enum": [
+          "early",
+          "operational",
+          "tested"
+        ]
       },
       "contact": {
         "description": "Solution contact details",
@@ -66,7 +121,35 @@
       },
       "ngiProject": {
         "description": "NGI project that funded the solution",
-        "enum": ["fed4fire", "ngi4all","think-nexus","ngi-explorers","ngi-forward","tetra","ngi-zero","dapsi","ngi-pointer","ngi-atlantic","ledger","ngi-trust","essif-lab","ontochain","ngi-assure","trublo","european-language-grid","bergamot","comprise","elitr","embeddia","gourmet","pret-a-llod","ngi-zero-entrust","ngi-zero-discovery","ngi-zero-pet","ngi-zero-core"]
+        "enum": [
+          "fed4fire",
+          "ngi4all",
+          "think-nexus",
+          "ngi-explorers",
+          "ngi-forward",
+          "tetra",
+          "ngi-zero",
+          "dapsi",
+          "ngi-pointer",
+          "ngi-atlantic",
+          "ledger",
+          "ngi-trust",
+          "essif-lab",
+          "ontochain",
+          "ngi-assure",
+          "trublo",
+          "european-language-grid",
+          "bergamot",
+          "comprise",
+          "elitr",
+          "embeddia",
+          "gourmet",
+          "pret-a-llod",
+          "ngi-zero-entrust",
+          "ngi-zero-discovery",
+          "ngi-zero-pet",
+          "ngi-zero-core"
+        ]
       },
       "endorsements": {
         "description": "Link to endorsements to the solution",
@@ -77,7 +160,7 @@
         "description": "Disclaimers about the solution",
         "type": "string"
       },
-      "socialMedia":{
+      "socialMedia": {
         "description": "Social media account list",
         "type": "array",
         "items": {
@@ -97,7 +180,7 @@
           ]
         }
       },
-      "moreContent":{
+      "moreContent": {
         "description": "Some useful links with descriptions",
         "type": "array",
         "items": {
@@ -111,8 +194,7 @@
               "format": "uri"
             },
             "description": {
-              "type": "string",
-              "format": "uri"
+              "type": "string"
             }
           },
           "required": [
@@ -122,7 +204,7 @@
           ]
         }
       },
-      "videos":{
+      "videos": {
         "description": "video links with descriptions",
         "type": "array",
         "items": {
@@ -136,8 +218,7 @@
               "format": "uri"
             },
             "description": {
-              "type": "string",
-              "format": "uri"
+              "type": "string"
             }
           },
           "required": [
@@ -147,7 +228,6 @@
           ]
         }
       }
-      
     },
     "required": [
       "id",
