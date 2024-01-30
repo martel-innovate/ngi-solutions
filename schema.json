@@ -76,7 +76,78 @@
       "disclaimer": {
         "description": "Disclaimers about the solution",
         "type": "string"
+      },
+      "socialMedia":{
+        "description": "Social media account list",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "required": [
+            "name",
+            "url"
+          ]
+        }
+      },
+      "moreContent":{
+        "description": "Some useful links with descriptions",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "required": [
+            "name",
+            "url",
+            "description"
+          ]
+        }
+      },
+      "videos":{
+        "description": "video links with descriptions",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "required": [
+            "name",
+            "url",
+            "description"
+          ]
+        }
       }
+      
     },
     "required": [
       "id",

@@ -1,36 +1,86 @@
 [
+  {
+    "id": "NGI-ASSURE:PROJECT-1",
+    "acronym": "assurePrj1",
+    "name": "my project",
+    "website": "https://www.martel-innovate.com/",
+    "countries": [
+      "IS",
+      "NO",
+      "LI",
+      "CH"
+    ],
+    "logo": "https://www.martel-innovate.com/wp-content/uploads/sites/5/2020/05/Marel-innovate-logo-StaySafe.png",
+    "additionalInfo": "More info about the project",
+    "description": "A simple description of the project",
+    "enduserRelevance": "This project is for a certain type of users",
+    "category": "firmware",
+    "projectStatus": "operational",
+    "contact": "person@email.com",
+    "ngiProject": "ngi4all",
+    "endorsements": "https://activityhub/project",
+    "disclaimer": "A disclaimer",
+    "socialMedia": [
       {
-        "id": "NGI-ASSURE:PROJECT-1",
-        "acronym": "assurePrj1",
-        "name":"my project",
-        "website":"https://www.martel-innovate.com/",
-        "countries": ["IS","NO","LI","CH"],
-        "logo": "https://www.martel-innovate.com/wp-content/uploads/sites/5/2020/05/Marel-innovate-logo-StaySafe.png",
-        "additionalInfo":"More info about the project",
-        "description":"A simple description of the project",
-        "enduserRelevance":"This project is for a certain type of users",
-        "category": "firmware",
-        "projectStatus":"operational",
-        "contact":"person@email.com",
-        "ngiProject": "ngi4all",
-        "endorsements":"https://activityhub/project",
-        "disclaimer": "A disclaimer"
-      },
-      {
-        "id": "NGI-ASSURE:PROJECT-2",
-        "acronym": "assurePrj2",
-        "name": "my project",
-        "website": "https://www.martel-innovate.com/",
-        "countries": ["BE","EL","RO","CZ"],
-        "logo": "https://www.martel-innovate.com/wp-content/uploads/sites/5/2020/05/Marel-innovate-logo-StaySafe.png",
-        "additionalInfo": "More info about the project",
-        "description": "A simple description of the project",
-        "enduserRelevance": "This project is for a certain type of users",
-        "category": "firmware",
-        "projectStatus":"operational",
-        "contact":"person@email.com",
-        "ngiProject": "tetra",
-        "endorsements":"https://activityhub/project",
-        "disclaimer": "A disclaimer"
+        "name": "github",
+        "url": "https://github.com/martel-innovate"
       }
+    ],
+    "moreContent": [
+      {
+        "name": "github",
+        "url": "https://github.com/martel-innovate",
+        "description": "Martel innovate Github"
+      }
+    ],
+    "videos": [
+      {
+        "name": "Orchestra city",
+        "url": "https://www.youtube.com/watch?v=PgP9EnL1whs&ab_channel=MartelInnovate",
+        "description": "Orchestra video description"
+      }
+    ]
+  },
+  {
+    "id": "NGI-ASSURE:PROJECT-2",
+    "acronym": "assurePrj2",
+    "name": "my project",
+    "website": "https://www.martel-innovate.com/",
+    "countries": [
+      "BE",
+      "EL",
+      "RO",
+      "CZ"
+    ],
+    "logo": "https://www.martel-innovate.com/wp-content/uploads/sites/5/2020/05/Marel-innovate-logo-StaySafe.png",
+    "additionalInfo": "More info about the project",
+    "description": "A simple description of the project",
+    "enduserRelevance": "This project is for a certain type of users",
+    "category": "firmware",
+    "projectStatus": "operational",
+    "contact": "person@email.com",
+    "ngiProject": "tetra",
+    "endorsements": "https://activityhub/project",
+    "disclaimer": "A disclaimer",
+    "socialMedia": [
+      {
+        "name": "github",
+        "url": "https://github.com/martel-innovate"
+      }
+    ],
+    "moreContent": [
+      {
+        "name": "github",
+        "url": "https://github.com/martel-innovate",
+        "description": "Martel innovate Github"
+      }
+    ],
+    "videos": [
+      {
+        "name": "Orchestra city",
+        "url": "https://www.youtube.com/watch?v=PgP9EnL1whs&ab_channel=MartelInnovate",
+        "description": "Orchestra video description"
+      }
+    ]
+  }
 ]
